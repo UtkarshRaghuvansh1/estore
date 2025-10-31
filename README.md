@@ -102,3 +102,24 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
   <option value="">Kids</option>
 </select>
 ```
+
+### Adding login links, wishlist, cart icon
+
+```html
+<div class="flex items-center w-[27%] gap-6 justify-end h-full">
+  <div class="flex items-center gap-2 text-white">
+    <fa-icon [icon]="faUserCircle" class="text-[1.3em]"></fa-icon>
+    <h5>
+      <a href="#" class="text-white no-underline hover:underline">Sign in</a>
+    </h5>
+    <span>/</span>
+    <h5>
+      <a href="#" class="text-white no-underline hover:underline">Register</a>
+    </h5>
+  </div>
+  <div class="flex items-center gap-4 text-white text-[1.3em] ">
+    <fa-icon [icon]="faHeart"></fa-icon>
+    <fa-icon [icon]="faShoppingCart"></fa-icon>
+  </div>
+</div>
+```
