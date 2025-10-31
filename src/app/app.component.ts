@@ -5,7 +5,7 @@ import { CatnavigationComponent } from './component/catnavigation/catnavigation.
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, CatnavigationComponent],
+  imports: [RouterOutlet],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

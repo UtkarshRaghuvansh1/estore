@@ -124,7 +124,7 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 </div>
 ```
 
-## Adding a category navigation
+# Adding a category navigation component
 
 - catnavigation component html
 
@@ -152,3 +152,19 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
   </ul>
 </div>
 ```
+
+# Adding Home component
+
+- It is going to be default comp when app is initially loaded in the browser
+
+```shell
+ng g c component/home
+```
+
+- add routes in app.routes.ts
+
+```ts
+
+```
+
+- RouterOutlet acts as a placeholder for the Angular compiler to load the components which are accessed through a route
