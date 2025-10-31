@@ -5,14 +5,25 @@
     </div>
 
     <div
-      class="w-[50%] p-0 items-center bg-white my-4 h-[2.5rem] flex items-center"
+      class="w-[50%] p-0 items-center bg-white my-4 h-[2.5rem] flex items-center border border-gray-300 rounded-md"
     >
+      <select
+        name=""
+        id=""
+        class="w-auto max-w-[30%] h-full bg-gray-300 border-none font-semibold px-2 pr-5"
+      >
+        <option value="">Men</option>
+        <option value="">Women</option>
+        <option value="">Kids</option>
+      </select>
       <input
         class="w-[90%] h-full inline-block border-none outline-none px-3"
         type="text"
         placeholder="Search..."
       />
-      <button class="w-[10%] h-10 bg-gray-300 flex items-center justify-center">
+      <button
+        class="w-[10%] h-10 bg-gray-300 flex items-center justify-center rounded-r-md"
+      >
         <fa-icon [icon]="faSearch"></fa-icon>
       </button>
     </div>

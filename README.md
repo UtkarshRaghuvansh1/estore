@@ -90,3 +90,15 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
   </button>
 </div>
 ```
+
+### Category dropdown in search bar
+
+- before input
+
+```html
+<select name="" id="" class="w-auto max-w-[30%] h-full bg-gray-300 border-none font-semibold px-2 pr-5">
+  <option value="">Men</option>
+  <option value="">Women</option>
+  <option value="">Kids</option>
+</select>
+```
